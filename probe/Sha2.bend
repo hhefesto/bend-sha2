@@ -1,6 +1,6 @@
 import Base
 import ../Sha2.bend as Sha
-import ../../wire/Wire.bend as H
+import ../../bend-wire/Wire.bend as H
 
 # SHA-256 on the examples of FIPS 180-4 (and the empty message): prints each
 # digest, then whether all are the standard's.
